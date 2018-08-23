@@ -1,8 +1,9 @@
+# coding: utf-8
 require 'zlib'
 require 'json'
 require 'open-uri'
 
-# Usage: $ ruby grid_crawler_dic.rb Filepath (Input)
+# Usage: $ ruby grid_crawler_dic.rb <filepath>
 # Input: grid_idのリスト (1行区切りのgrid_idのリスト)
 # Output: result.json
 
