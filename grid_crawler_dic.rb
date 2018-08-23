@@ -137,10 +137,9 @@ def crawler(grid_id)
   return hash
 end
 
-hash_dic = Hash.new{|k,h| k[h]={}}
-
-
 # ------- MAIN -------
+
+hash_dic = Hash.new{|k,h| k[h]={}}
 
 ARGV.each{|filepath|
   File.open(filepath, 'r'){|file|
