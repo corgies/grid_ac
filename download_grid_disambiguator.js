@@ -7,4 +7,5 @@ var sspage=(new XMLSerializer).serializeToString(document),blob=new Blob([sspage
 // 設定3: console.log() に任意の文字列を入れる (実行時にconsole画面上に表示される文字列なので、必ずしも指定する必要はない)
 // 使い方1: ウェブブラウザでGRIDの名寄せ機能ページ (https://www.grid.ac/disambiguate) を開く。このとき、「reCAPTCHA」が表示されることがあるので回答する。
 // 使い方2: 検証 > Console を開き、コマンドを入力して実行する。無事に実行できれば、検索結果ページが、実行時の「タイムスタンプ (数値列).html」の名称でHTMLファイルとして保存される。
-// 備考:「reCAPTCHA」が要求されている状態で使用すると検索結果ページを保存することができないので注意すること。
+// 備考1: 「reCAPTCHA」が要求されている状態で使用すると検索結果ページを保存することができないので注意すること。
+// 備考2: Web APIが公開/提供されていれば、本来、こんなに面倒なことをする必要は生じないはず。。
